@@ -35,7 +35,6 @@ html {
 
 #title {
     background-color: rgb(47, 47, 47);
-    color: rgb(23, 228, 0);
     border-radius: 10px;
 
     position: fixed;
@@ -47,6 +46,7 @@ html {
 
     padding: 20px;
 
+    color: rgb(23, 228, 0);
     font-family: GameFont;
     font-size: 50px;
     white-space: nowrap;
