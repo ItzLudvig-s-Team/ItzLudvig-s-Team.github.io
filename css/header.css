@@ -26,20 +26,37 @@
     left: 20px;
 }
 
-#page_selector {
+#pages_row {
     position: fixed;
-    top: 35px;
+    top: 45px;
     right: 20px;
 
-    width: 250px;
-
     border-radius: 20px;
-
-    color: rgb(23, 228, 0);
-    font-family: GameFont;
-    font-size: 20px;
 
     background-color: rgb(36, 36, 36);
 
     padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.pages_row_item {
+    display: inline-block;
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.pages_row_item label {
+    color: rgb(23, 228, 0);
+    font-family: GameFont;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+
+.pages_row_item label:hover {
+    text-decoration: underline;
+	color: rgb(23, 228, 0);
 }

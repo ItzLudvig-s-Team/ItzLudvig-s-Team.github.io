@@ -12,14 +12,15 @@ html {
 
 
 .social_media_row_item {
-    padding: 20px;
+    display: inline-block;
+    padding: 3%;
 }
 
 .social_media_row_item img {
-    width: 100px;
+    width: 100%;
 }
 
-#social_media_table {
+#social_media_row {
     background-color: rgb(47, 47, 47);
     border-radius: 25px;
 
@@ -28,12 +29,17 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    margin-top: 100px;
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+
+    width: 25%;
 }
 
 
 
-#title {
+#title_div {
     background-color: rgb(47, 47, 47);
     border-radius: 10px;
 
@@ -41,14 +47,17 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     margin-top: -100px;
 
-    padding: 20px;
+    width: 78%;
+}
+
+#title_text {
+    padding: 0px;
 
     color: rgb(23, 228, 0);
     font-family: GameFont;
     font-size: 50px;
-    white-space: nowrap;
+    white-space: auto;
     text-align: center;
 }
