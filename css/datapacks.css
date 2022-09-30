@@ -33,7 +33,7 @@ html {
 
     filter: brightness(50%) blur(0px);
 
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 #datapacks_table .datapack .cover_image:hover {
@@ -42,8 +42,8 @@ html {
 
 #datapacks_table .datapack .cover_title {
     position: fixed;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
 
     width: 100%;
 
@@ -57,8 +57,8 @@ html {
 
 #datapacks_table .datapack .cover_text {
     position: fixed;
-    margin-top: 60px;
-    margin-left: 25px;
+    margin-top: 4%;
+    margin-left: 1.5%;
 
     width: 25%;
 
@@ -66,6 +66,7 @@ html {
     font-family: GameFont;
     font-size: 0.7vw;
     white-space: auto;
+    line-height: 150%;
 
     pointer-events: none;
 }
