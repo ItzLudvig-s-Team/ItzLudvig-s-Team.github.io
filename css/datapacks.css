@@ -1,0 +1,71 @@
+@font-face {
+    font-family: GameFont;
+    src: url(../fonts/PressStart2P-2.14/PressStart2P.ttf);
+}
+
+
+
+html {
+    background: linear-gradient(45deg, rgb(11, 11, 11) 0%,  rgb(46, 46, 46) 100%);
+}
+
+
+
+#datapacks_table {
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    width: 80%;
+}
+
+
+
+#datapacks_table td {
+    padding: 1%;
+}
+
+#datapacks_table .datapack .cover_image {
+    position: fixed;
+
+    width: 30%;
+
+    filter: brightness(50%) blur(0px);
+
+    border-radius: 30px;
+}
+
+#datapacks_table .datapack .cover_image:hover {
+    filter: brightness(25%) blur(5px);
+}
+
+#datapacks_table .datapack .cover_title {
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 25px;
+
+    width: 100%;
+
+    color: rgb(23, 228, 0);
+    font-family: GameFont;
+    font-size: 1.2vw;
+    white-space: auto;
+
+    pointer-events: none;
+}
+
+#datapacks_table .datapack .cover_text {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 25px;
+
+    width: 25%;
+
+    color: rgb(23, 228, 0);
+    font-family: GameFont;
+    font-size: 0.7vw;
+    white-space: auto;
+
+    pointer-events: none;
+}
