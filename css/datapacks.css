@@ -34,6 +34,8 @@ html {
     filter: brightness(50%) blur(0px);
 
     border-radius: 15px;
+
+    border: 5px solid rgb(28, 28, 28)
 }
 
 #datapacks_table .datapack .cover_image:hover {
